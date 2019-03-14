@@ -1,0 +1,7 @@
+# ninja log v5
+0	20	1552524678	program@exe/program.c.o	92b5455219c79ade
+0	24	1552524678	pozdrav@sha/funkcija.c.o	879f414bf57bb1b0
+25	39	1552524678	libpozdrav.so	e4301a2fea5e1d05
+40	283	1552524679	pozdrav@sha/libpozdrav.so.symbols	878abdc02cd43c7f
+284	298	1552524679	program	ef1231b2185dcef7
+1	190	0	meson-test	edc6305a1f3b97f

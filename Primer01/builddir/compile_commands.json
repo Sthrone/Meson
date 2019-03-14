@@ -1,0 +1,7 @@
+[
+  {
+    "directory": "/home/ubuntu/Desktop/Meson/Primer01/builddir",
+    "command": "cc -Iimi_pozdrav@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -MD -MQ 'imi_pozdrav@exe/Pozdrav.c.o' -MF 'imi_pozdrav@exe/Pozdrav.c.o.d' -o 'imi_pozdrav@exe/Pozdrav.c.o' -c ../Pozdrav.c",
+    "file": "../Pozdrav.c"
+  }
+]

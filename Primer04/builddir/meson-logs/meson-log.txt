@@ -1,0 +1,119 @@
+Build started at 2019-03-14T03:15:11.983076
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.50.0
+Source dir: /home/ubuntu/Desktop/Meson/Primer04
+Build dir: /home/ubuntu/Desktop/Meson/Primer04/builddir
+Build type: native build
+Project name: DodatneFunkcionalnosti
+Project version: undefined
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/ubuntu/Desktop/Meson/Primer04/builddir/meson-private/sanitycheckc.c -o /home/ubuntu/Desktop/Meson/Primer04/builddir/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/ubuntu/Desktop/Meson/Primer04/builddir/meson-private/sanitycheckc.exe
+Native C compiler: cc (gcc 7.3.0 "cc (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Running compile:
+Working directory:  /tmp/tmpuhtwvs7b
+Command line:  cc /tmp/tmpuhtwvs7b/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -c -o /tmp/tmpuhtwvs7b/output.obj -O0 
+
+Code:
+ 
+	
+#include <stdio.h>
+
+void Pozdrav()
+{
+	printf("Pozdrav sa IMI-ja!\n");
+}
+
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking if "Provera kompajliranja" compiles: YES
+Running compile:
+Working directory:  /tmp/tmp6wuxfopk
+Command line:  cc /tmp/tmp6wuxfopk/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmp6wuxfopk/output.exe -O0 -Wl,--start-group -lfoo -Wl,--end-group 
+
+Code:
+ 
+	
+#include <stdio.h>
+
+void Pozdrav()
+{
+	printf("Pozdrav sa IMI-ja!\n");
+}
+
+
+Compiler stdout:
+ 
+Compiler stderr:
+ /usr/bin/ld: cannot find -lfoo
+collect2: error: ld returned 1 exit status
+
+Checking if "Provera linkovanja" links: NO
+Running compile:
+Working directory:  /tmp/tmps9f2srf7
+Command line:  cc /tmp/tmps9f2srf7/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmps9f2srf7/output.exe -O0 
+
+Code:
+ 
+
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+	printf("%s\n", "Izlaz!");
+	fprintf(stderr, "%s\n", "Greska!");
+	return 0;
+}
+
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+Izlaz!
+
+Program stderr:
+
+Greska!
+
+Checking if "Testiranje" runs: YES
+Running compile:
+Working directory:  /tmp/tmpw5lm4aag
+Command line:  cc /tmp/tmpw5lm4aag/testfile.c -pipe -D_FILE_OFFSET_BITS=64 -o /tmp/tmpw5lm4aag/output.exe -O0 
+
+Code:
+ 
+
+#include <stdio.h>
+
+int main(int argc, char **argv)
+{
+	printf("%s\n", "Izlaz!");
+	fprintf(stderr, "%s\n", "Greska!");
+	return 0;
+}
+
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Checking if "Provera linkovanja 2" links: YES
+Build targets in project: 0
+Found ninja-1.8.2 at /usr/bin/ninja

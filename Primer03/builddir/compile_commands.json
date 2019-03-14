@@ -1,0 +1,12 @@
+[
+  {
+    "directory": "/home/ubuntu/Desktop/Meson/Primer03/builddir",
+    "command": "cc -Ipozdrav@sha -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -fPIC -MD -MQ 'pozdrav@sha/funkcija.c.o' -MF 'pozdrav@sha/funkcija.c.o.d' -o 'pozdrav@sha/funkcija.c.o' -c ../funkcija.c",
+    "file": "../funkcija.c"
+  },
+  {
+    "directory": "/home/ubuntu/Desktop/Meson/Primer03/builddir",
+    "command": "cc -Iprogram@exe -I. -I.. -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -g -MD -MQ 'program@exe/program.c.o' -MF 'program@exe/program.c.o.d' -o 'program@exe/program.c.o' -c ../program.c",
+    "file": "../program.c"
+  }
+]
