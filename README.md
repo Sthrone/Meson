@@ -1,4 +1,4 @@
-# Meson
+# Meson build sistem
 Praktični primeri sa Meson članka na IMI blogu: https://imi.pmf.kg.ac.rs/imi-blog/meson-build-sistem/
 
 - Primer01
